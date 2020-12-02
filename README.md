@@ -1,7 +1,7 @@
 # Binary and Real-Coded Genetic Algorithms in MATLAB
 
-<p align="center">
-    <img src="https://yarpiz.com/wp-content/uploads/2015/09/ypea101-genetic-algorithms.jpg" alt="Binary and Real-Coded Genetic Algorithms in MATLAB">
+<p align = "center">
+    <img src = "https://yarpiz.com/wp-content/uploads/2015/09/ypea101-genetic-algorithms.jpg" alt = "Binary and Real-Coded Genetic Algorithms in MATLAB">
 </p>
 
 This is an implementation of Binary and Real-Coded Genetic Algorithms in MATLAB.

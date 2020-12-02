@@ -14,12 +14,12 @@
 % Contact Info: sm.kalami@gmail.com, info@yarpiz.com
 %
 
-function i=RouletteWheelSelection(P)
+function i = RouletteWheelSelection(P)
 
-    r=rand;
+    r = rand;
     
-    c=cumsum(P);
+    c = cumsum(P);
     
-    i=find(r<=c,1,'first');
+    i = find(r< = c, 1, 'first');
 
 end

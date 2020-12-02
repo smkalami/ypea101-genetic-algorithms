@@ -14,18 +14,18 @@
 % Contact Info: sm.kalami@gmail.com, info@yarpiz.com
 %
 
-function i=TournamentSelection(pop,m)
+function i = TournamentSelection(pop, m)
 
-    nPop=numel(pop);
+    nPop = numel(pop);
 
-    S=randsample(nPop,m);
+    S = randsample(nPop, m);
     
-    spop=pop(S);
+    spop = pop(S);
     
-    scosts=[spop.Cost];
+    scosts = [spop.Cost];
     
-    [~, j]=min(scosts);
+    [~, j] = min(scosts);
     
-    i=S(j);
+    i = S(j);
 
 end

@@ -14,15 +14,15 @@
 % Contact Info: sm.kalami@gmail.com, info@yarpiz.com
 %
 
-function y=Mutate(x,mu)
+function y = Mutate(x, mu)
 
-    nVar=numel(x);
+    nVar = numel(x);
     
-    nmu=ceil(mu*nVar);
+    nmu = ceil(mu*nVar);
     
-    j=randsample(nVar,nmu);
+    j = randsample(nVar, nmu);
     
-    y=x;
-    y(j)=1-x(j);
+    y = x;
+    y(j) = 1-x(j);
 
 end

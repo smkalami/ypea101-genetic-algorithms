@@ -14,8 +14,8 @@
 % Contact Info: sm.kalami@gmail.com, info@yarpiz.com
 %
 
-function z=Sphere(x)
+function z = Sphere(x)
 
-    z=sum(x.^2);
+    z = sum(x.^2);
 
 end

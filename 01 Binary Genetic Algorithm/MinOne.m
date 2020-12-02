@@ -14,8 +14,8 @@
 % Contact Info: sm.kalami@gmail.com, info@yarpiz.com
 %
 
-function z=MinOne(x)
+function z = MinOne(x)
 
-    z=sum(x);
+    z = sum(x);
 
 end
