@@ -11,5 +11,5 @@ https://yarpiz.com/23/ypea101-genetic-algorithms
 
 ## Citing This Work
 You can cite this code as follows:
-README.md updated.
+
 **Mostapha Kalami Heris, Binary and Real-Coded Genetic Algorithms in MATLAB (URL: https://yarpiz.com/23/ypea101-genetic-algorithms), Yarpiz, 2015.**
